@@ -1,0 +1,28 @@
+.ourServices {
+  max-width: 100%;
+  margin: 80px 0px;
+  &_header {
+    max-width: 80%;
+    margin: 0 auto;
+    .ourTopServices {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      .line {
+        width: 70px;
+        height: 2px;
+        background-color: rgb(197, 22, 98);
+      }
+      p {
+        font-size: 19px;
+        color: rgb(197, 22, 98);
+      }
+    }
+    .ourBestServices {
+      font-size: 45px;
+      font-weight: 800;
+      color: rgb(0, 0, 69);
+      padding: 30px 0px;
+    }
+  }
+}

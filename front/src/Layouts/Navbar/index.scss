@@ -1,0 +1,27 @@
+.navbar_container{
+    max-width: 100%;
+    .navbar{
+        max-width: 80%;
+        height: 90px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .navmenu{
+            ul{
+                display: flex;
+                gap: 20px;
+                li{
+                    cursor: pointer;
+                    transition: 400ms;
+                    &:hover{
+                        color: red;
+                    }
+                }
+                a{
+                    color: black;
+                }
+            }
+        }
+    }
+}

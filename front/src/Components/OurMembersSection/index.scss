@@ -1,0 +1,72 @@
+.ourMembersSection_container {
+  max-width: 100%;
+  margin: 80px 0px;
+  .ourMembersSection {
+    max-width: 80%;
+    margin: 0 auto;
+  
+  &_header {
+    .outProfessionalMembers {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      .line {
+        width: 70px;
+        height: 2px;
+        background-color: rgb(197, 22, 98);
+      }
+      p {
+        font-size: 19px;
+        color: rgb(197, 22, 98);
+      }
+    }
+    .ourTeamMembers {
+      font-size: 45px;
+      font-weight: 800;
+      color: rgb(0, 0, 69);
+      padding: 30px 0px;
+    }
+  }
+  &_cards{
+    display: flex;
+    justify-content: space-between;
+    margin:30px 0px;
+    .ourMembersSection_card{
+      width: 350px;
+      height: 550px;
+      box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+      &_img{
+        overflow: hidden;
+
+      }
+      img{
+        transition: 700ms;
+        &:hover{
+          scale: 1.05;
+        }
+      }
+      .designer_name{
+        padding: 15px 0px 10px 30px;
+        font-size: 22px;
+        font-weight: 700;
+        cursor: pointer;
+      }
+      .uxDesigner{
+        padding-left: 30px;
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        .line{
+          width: 35px;
+          height: 2px;
+          background-color: red;
+        }
+        p{
+          color: red;
+          font-size: 15px;
+        }
+      }
+    }
+  }
+}
+}
